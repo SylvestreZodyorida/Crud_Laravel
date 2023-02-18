@@ -23,7 +23,7 @@
         <div class="inputs">
             <label class="form-group has-error" for="">Nom : </label><input  class="form-control " type="text" name="nom" placeholder="Entrez votre nom" value="{{$etudiant->nom}}" ><br>
             <label class="form-group has-error" for="">Prénom : </label><input  class="form-control " type="text" name="prenom" placeholder="Entrez votre prénom" value="{{$etudiant->prenom}}"><br>
-            <label class="form-group has-error" for="">Classe </label>
+            <label class="form-group has-error" for="">Classe : </label>
             <Select  class="form-control " name="classe_id">
                 <option value=""></option>
                 @foreach($classes as $classe)
@@ -34,7 +34,7 @@
                 @endif
                 @endforeach
             </Select>
-            
+
         </div>
         <div class="field button">
             <button class="btn btn-primary btn_ajouter" type="submit" name="submit">Enrégistre</button>
@@ -42,5 +42,5 @@
         </div>
     </form>
 </section>
-    
+
 @endsection
