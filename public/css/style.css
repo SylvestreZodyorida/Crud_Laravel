@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.container nav{
+    padding: 15px;
+    border-radius: 15px;
+}
+.container .logo{
+    font-size: 25px;
+    font-weight: 900;
+}
+.menu li{
+    font-size: 22px;
+    border-bottom: 5px solid rgb(187, 187, 192);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.menu li:hover{
+    border-bottom: 5px solid rgb(157, 157, 160);
+}
+.Page_bienvenu{
+    border: 3px solid rgb(218, 218, 219);
+    background: linear-gradient(to bottom , rgb(255, 255, 255) , rgb(26, 47, 165));
+    height: 90%;   
+    font-size: 20px;
+    border-radius: 20px;
+    color: rgb(211, 159, 62);
+}
+.Page_bienvenu h2{
+    text-align: center;
+}
+.Page_bienvenu p{
+    margin-top: 30px;
+    padding: 25px;
+    color: black;
+}
+.aj_etu{
+    margin-top: 30px;
+}
+.liste_etu{
+    padding-left: 30px;
+    width: 88%;
+    background: linear-gradient(to left , rgb(255, 255, 255) , rgb(146, 231, 106));
+    border: 2px solid rgb(255, 254, 254);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    
+}
+.liste_etu input , select{
+    width: 400px;
+}
+.liste_etu  select{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.btn_ajouter{
+    margin-right: 80px;
+}
+.msg_success{
+    background: rgb(84, 211, 84);
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+.erreur{
+    background: rgb(248, 155, 132);
+    width: 340px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
