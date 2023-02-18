@@ -9,7 +9,7 @@
         <p class="col-md-6">
             Crud Laravel Application est  une application web (base de donnée)
             conçue dans le but de maitriser les bases du framework php
-            <mark>Laravel.</mark> .
+            <mark>Laravel</mark> .
         </p>
         <p class="col-md-6">
         <mark>CRUD</mark>est un acronyme des noms des quatre opérations de base de la gestion de la persistance
